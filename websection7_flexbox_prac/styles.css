@@ -1,7 +1,11 @@
 #container {
   background-color: rgb(82, 23, 81);
   padding: 10px;
-  width: 600px;
+  /* width: 600px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 p {
@@ -16,6 +20,9 @@ ul {
   width: 250px;
   margin: 10px;
   padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 li {

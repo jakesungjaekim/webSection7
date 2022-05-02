@@ -3,6 +3,12 @@ body {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 #page-logo a {
   padding: 10px;
   font-family: "Jua", sans-serif;
@@ -21,10 +27,26 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 60px;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+header li:hover,
+header li:active {
+  border-radius: 5px;
+  background-color: rgb(247, 239, 87);
 }

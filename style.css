@@ -1,8 +1,18 @@
-* {
-  font-family: "Jua", sans-serif;
-  font-family: "Stylish", sans-serif;
+#hero {
+  height: 800px;
+  background-image: url("./assets/places/ocean.jpeg");
+  background-position: center;
 }
+#hero-content {
+  width: 900px;
+  background-color: rgba(51, 47, 47, 0.8);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
 
-p {
-  font-family: "Jua", sans-serif;
+  padding: 50px 0;
+  margin: 0 auto;
+
+  position: relative;
+  top: 200px;
 }
