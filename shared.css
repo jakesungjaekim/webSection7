@@ -9,6 +9,18 @@ ul {
   padding: 0;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
 #page-logo a {
   padding: 10px;
   font-family: "Jua", sans-serif;
@@ -25,28 +37,26 @@ ul {
   cursor: crosshair;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 15px 60px;
-}
-
 header ul {
   display: flex;
-  justify-content: flex-end;
 }
 
 header li {
-  text-align: center;
-  padding: 10px;
-  width: 100px;
   margin-left: 20px;
 }
 
-header li:hover,
-header li:active {
+header a {
+  color: rgb(255, 251, 0);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+}
+
+header a:hover,
+header a:active {
   border-radius: 5px;
+  color: rgb(77, 77, 77);
   background-color: rgb(247, 239, 87);
 }
