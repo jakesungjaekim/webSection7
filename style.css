@@ -52,13 +52,14 @@
 
 #destinations {
   display: flex;
-  width: 90%;
+  width: 50%;
   margin: auto;
   margin-bottom: 40px;
 }
 
 #highlights {
   padding: 24px;
+  background: linear-gradient(0deg, rgb(227, 255, 253), rgb(31, 154, 146));
 }
 
 #highlights h2 {
